@@ -1,6 +1,18 @@
 .App {
   text-align: center;
 }
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.black-nav{
+  display: flex;
+  background: black;
+  width: 100%;
+  color: white;
+  padding-left: 20px;
+}
 div{
   box-sizing: border-box;
 }
@@ -9,22 +21,15 @@ div{
   text-align: left;
   border-bottom: 1px solid gray;
 }
-.black-nav{
-  display: flex;
-  background-color: black;
-  width: 100%;
-  color: white;
-  padding-left: 20px;
+.modal{
+  margin-top: 20px;
+  padding: 20px;
+  background: #eee;
+  text-align: left;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 1s linear;
+    animation: App-logo-spin infinite 20s linear;
   }
 }
 
